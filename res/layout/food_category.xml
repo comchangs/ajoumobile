@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/background">
+    <ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <TextView android:background="#661358be" android:textSize="20sp" android:textStyle="bold|italic" android:textColor="#333333" android:id="@+id/TextView01" android:layout_height="50sp" android:layout_width="fill_parent" android:padding="10sp" android:text="주변 음식점 정보"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:gravity="center_horizontal" android:layout_height="70sp">
+        <EditText android:id="@+id/editText1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="1" android:hint="음식점명을 입력하세요."></EditText>
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" android:text="검색" android:layout_width="70sp"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_weight="1" android:gravity="center_horizontal">
+        <ImageButton android:src="@drawable/food1" android:id="@+id/imageButton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food2" android:id="@+id/imageButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food3" android:id="@+id/imageButton3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_weight="1" android:gravity="center_horizontal">
+        <ImageButton android:src="@drawable/food4" android:id="@+id/imageButton4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food5" android:id="@+id/imageButton5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food6" android:id="@+id/imageButton6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_weight="1" android:gravity="center_horizontal">
+        <ImageButton android:src="@drawable/food7" android:id="@+id/imageButton7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food8" android:id="@+id/imageButton8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+        <ImageButton android:src="@drawable/food9" android:id="@+id/imageButton9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#00000000" android:layout_marginRight="15sp" android:layout_marginLeft="15sp"></ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

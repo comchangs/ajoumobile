@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/background">
+	<ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+	<TextView android:background="#661358be" android:textSize="20sp"
+		android:textStyle="bold|italic" android:textColor="#333333"
+		android:id="@+id/TextView01" android:layout_height="50sp"
+		android:layout_width="fill_parent" android:padding="10sp"
+		android:text="제작자정보"></TextView>
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="match_parent" android:id="@+id/scrollView1"
+		android:layout_weight="1">
+		<LinearLayout android:layout_height="match_parent"
+			android:layout_width="match_parent" android:id="@+id/linearLayout1"
+			android:orientation="vertical" android:padding="5sp">
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView1" android:text="정문창 - 2011 회장, 2010 개발처장"
+				android:textColor="#333" android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView1_1"
+				android:text="(Jeong Mun-chang; A-MiCOM 27th, 산정 06)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView1_2"
+				android:text="e-mail: comchangs@gmail.com" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView1_3"
+				android:text="참여 project: Ajou Mobile 1.0 ~ 2.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView1_4"
+				android:text="Project Directing, Core Develoment(Web HTML/XML/JSON Parsing, Naver Map API), Layout Design, Server Side(PHP, MySQL, JSON, XML) Develoment"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView1_5"
+				android:text=" "></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView2" android:text="고승준 - 2009 개발처장"
+				android:textColor="#333" android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView2_1"
+				android:text="(Ko Seung-jun; A-MiCOM 25th, 산정 04)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView2_2"
+				android:text="e-mail: gmgnt@naver.com" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView2_3"
+				android:text="참여 project: Ajou Mobile 1.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView2_4"
+				android:textColor="#333" android:text="Main Core Develoment (Web HTML Parsing)"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView2_5"
+				android:text=" "></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView3" android:text="정석태 - 2011 소프트웨어실장 "
+				android:textColor="#333" android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_1"
+				android:text="(Jeong Seok-tae; A-MiCOM 27th, 정컴 06)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_2"
+				android:text="e-mail: catapult3@naver.com" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_3"
+				android:text="참여 project: Ajou Mobile 1.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_4"
+				android:text="Core Develoment (Web HTML Parsing)" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_5"
+				android:text=" "></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView4" android:text="주현규  - 2011 부회장"
+				android:textColor="#333" android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_1"
+				android:text="(Ju Hyen-kyu; A-MiCOM 31st, 환건교 10)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_2"
+				android:text="e-mail: ctb8113@gmail.com" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_3"
+				android:text="참여 project: Ajou Mobile 1.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_4"
+				android:text="Core Develoment" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView3_5"
+				android:text=" "></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView5" android:text="진주은" android:textColor="#333"
+				android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView4_1"
+				android:text="(Jin Joo-eun; A-MiCOM 32nd, 전자 08)" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView4_3"
+				android:text="e-mail: jooeun1015@hanmail.net" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView4_2"
+				android:text="참여 project: Ajou Mobile 2.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView4_4"
+				android:text="Core Develoment (Web HTML/XML Parsing)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView4_5"
+				android:text=""></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:textStyle="bold" android:layout_height="wrap_content"
+				android:id="@+id/textView6" android:text="이지영" android:textColor="#333"
+				android:textSize="18sp"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView5_1"
+				android:text="(Lee Ji-young; A-MiCOM 32nd, 환건교 11)"
+				android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView5_3"
+				android:text="e-mail: lgy7229@naver.com" android:textColor="#333"
+				android:autoLink="email"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView5_2"
+				android:text="참여 project: Ajou Mobile 2.0" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView5_4"
+				android:text="Core Develoment (Widget)" android:textColor="#333"></TextView>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/textView5_5"
+				android:text=""></TextView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

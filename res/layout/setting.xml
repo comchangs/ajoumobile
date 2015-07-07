@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent" android:background="@drawable/background" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/titlebar"></ImageView>
+    <TextView android:textSize="20sp" android:textStyle="bold|italic" android:textColor="#333333" android:id="@+id/TextView01" android:layout_height="50sp" android:layout_width="fill_parent" android:padding="10sp" android:text="환경설정" android:background="#661358be"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_margin="30px">
+        <EditText android:layout_height="wrap_content" android:focusable="false" android:freezesText="false" android:layout_width="match_parent" android:id="@+id/setting_editText1"></EditText>
+        <EditText android:layout_height="wrap_content" android:focusable="false" android:freezesText="true" android:password="true" android:layout_width="match_parent" android:id="@+id/setting_editText2"></EditText>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/setting_button1" android:text="로그아웃"></Button>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/setting_textView2" android:text="자동 로그인이 설정 되어 있지 않습니다." android:textColor="#333"></TextView>
+        <!-- CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/setting_checkBox1" android:text="자동 로그인 " android:focusable="false" android:clickable="false"></CheckBox-->
+    </LinearLayout>
+</LinearLayout>

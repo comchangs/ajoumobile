@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" android:background="@drawable/background">
+    <ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="80sp">
+	    <ListView
+			android:id="@android:id/list"
+			android:layout_width="fill_parent"
+			android:layout_height="50sp"
+			xmlns:android="http://schemas.android.com/apk/res/android" android:background="#77aaaaaa" android:cacheColorHint="#00000000">
+		</ListView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:gravity="center_horizontal" android:id="@+id/LinearLayout04" android:orientation="horizontal" android:layout_height="100sp">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_timetable" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_timetable"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_portal" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_portal"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_library" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_library"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:gravity="center_horizontal" android:id="@+id/LinearLayout02" android:orientation="horizontal" android:layout_height="100sp">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_menu" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_menu"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_food" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_food"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_bus" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_bus"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:gravity="center_horizontal" android:id="@+id/LinearLayout01" android:orientation="horizontal" android:layout_height="100sp">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_map" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_map"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_phone" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_phone"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_notice" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_notice"></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:gravity="center_horizontal" android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_height="100sp">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_creator" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_creator"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_bug" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_bug"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_setting" android:layout_marginRight="15sp" android:layout_marginLeft="15sp" android:background="#00000000" android:src="@drawable/mainicon_h_setting"></ImageButton>
+    </LinearLayout>
+	
+</LinearLayout>

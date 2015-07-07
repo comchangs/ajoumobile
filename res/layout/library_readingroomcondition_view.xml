@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background">
+	<ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+	<TextView android:id="@+id/textView1" android:text="열람실 잔여 좌석 조회"
+		android:padding="10sp" android:textSize="20sp" android:textColor="#333333"
+		android:layout_width="fill_parent" android:textStyle="bold|italic"
+		android:background="#661358be" android:layout_height="50sp"></TextView>
+	<ajou.amicom.ajouInfo.map.FullScrollView
+		android:id="@+id/ImageView01" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:scrollbars="vertical|horizontal">
+
+		<ImageView android:id="@+id/readingroomconditionmenu_iv"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</ajou.amicom.ajouInfo.map.FullScrollView>
+</LinearLayout>	

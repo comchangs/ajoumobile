@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:background="@drawable/background">
+    <ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <TextView android:background="#661358be" android:textSize="20sp" android:textStyle="bold|italic" android:textColor="#333333" android:id="@+id/TextView01" android:layout_height="50sp" android:layout_width="fill_parent" android:padding="10sp" android:text="주변 음식점 정보"></TextView>
+	<TextView android:layout_height="wrap_content" android:text="식당 이름 불러오는 중..."
+		android:layout_margin="10px" android:singleLine="true"
+		android:layout_width="match_parent" android:id="@+id/food_textView1"
+		android:textSize="30sp" android:textColor="#333"></TextView>
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/scrollView1"
+		android:layout_weight="1">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<ImageView android:layout_height="wrap_content"
+				android:src="@drawable/food_show_img" android:id="@+id/food_imageView1"
+				android:layout_width="match_parent" android:cropToPadding="true" android:scaleType="centerCrop" android:layout_marginBottom="5sp" android:layout_marginTop="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp"></ImageView>
+			<TextView android:layout_height="wrap_content" android:text="분류 불러오는 중..."
+				android:layout_margin="5px" android:id="@+id/food_textView2"
+				android:textSize="20sp" android:layout_width="match_parent" android:textColor="#333"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="전화번호 불러오는 중..."
+				android:layout_margin="5px" android:id="@+id/food_textView3"
+				android:textSize="20sp" android:layout_width="match_parent" android:textColor="#333"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="영업시간 불러오는 중..."
+				android:layout_margin="5px" android:id="@+id/food_textView4"
+				android:textSize="20sp" android:layout_width="match_parent" android:textColor="#333"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="배달가능 여부 불러오는 중..."
+				android:layout_margin="5px" android:id="@+id/food_textView5"
+				android:textSize="20sp" android:layout_width="match_parent" android:textColor="#333"></TextView>
+			<TextView android:layout_height="wrap_content" android:text="메뉴 불러오는 중..."
+				android:layout_margin="5px" android:id="@+id/food_textView6"
+				android:textSize="20sp" android:layout_width="match_parent" android:textColor="#333"></TextView>
+			<ImageView android:layout_height="wrap_content"
+				android:src="@drawable/food_show_img" android:id="@+id/food_imageView2"
+				android:layout_width="match_parent" android:layout_marginBottom="5sp" android:layout_marginLeft="5sp" android:layout_marginRight="5sp" android:layout_marginTop="5sp"></ImageView>
+		</LinearLayout>
+	</ScrollView>
+	<Button android:layout_height="wrap_content"
+		android:drawableLeft="@drawable/phone" android:text=" 전화걸기 "
+		android:layout_gravity="center_horizontal" android:layout_width="wrap_content"
+		android:id="@+id/food_button1" android:layout_marginTop="10sp"></Button>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:id="@+id/clubNm" android:text="과목명" android:textColor="#333" android:textSize="20sp" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/title" android:text="제목" android:textColor="#333" android:textSize="20sp" android:layout_width="fill_parent"></TextView>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+    <TextView android:textSize="17sp" android:textColor="#666" android:layout_height="wrap_content" android:layout_width="100sp" android:layout_gravity="right" android:id="@+id/workStDt" android:text="사작날짜"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="~" android:paddingLeft="10sp" android:paddingRight="10sp"></TextView>
+    <TextView android:textSize="17sp" android:textColor="#666" android:layout_height="wrap_content" android:layout_width="100sp" android:layout_gravity="right" android:id="@+id/workEdDt" android:text="종료날짜"></TextView>
+</LinearLayout>
+
+</LinearLayout>

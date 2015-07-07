@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:background="@drawable/background" android:layout_height="match_parent" android:layout_width="match_parent">
+	<ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+	<TextView android:id="@+id/textView1" android:padding="10sp" android:textSize="20sp" android:textColor="#333333"
+		android:layout_width="fill_parent" android:textStyle="bold|italic"
+		android:background="#661358be" android:layout_height="50sp" android:text="대출 정보 및 연기"></TextView>
+	
+	<ListView
+    	android:id = "@+id/borrowbook_list1"
+    	android:layout_weight="1" android:background="#00000000" android:cacheColorHint="#00000000" android:layout_height="match_parent" android:layout_width="match_parent"/>
+</LinearLayout>

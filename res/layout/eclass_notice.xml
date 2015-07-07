@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical" android:background="@drawable/background">
+	<ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <TextView android:background="#661358be" android:textSize="20sp" android:textStyle="bold|italic" android:textColor="#333333" android:id="@+id/TextView01" android:layout_height="50sp" android:layout_width="fill_parent" android:padding="10sp" android:text="이클래스 공지사항"></TextView>
+	<ListView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/eclass_notice_listview" android:layout_weight="1" android:background="#00000000" android:cacheColorHint="#00000000"></ListView>
+
+</LinearLayout>

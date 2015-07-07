@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:id="@+id/clubNm" android:text="과목명" android:textColor="#333" android:textSize="20sp" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/title" android:text="제목" android:textColor="#333" android:textSize="20sp" android:layout_width="fill_parent"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/openStDt" android:text="날짜" android:textColor="#666" android:layout_gravity="right" android:textSize="17sp" android:layout_width="100sp"></TextView>
+</LinearLayout>

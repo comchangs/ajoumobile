@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_height="wrap_content" android:text="공연이름 불러오는 중..." android:layout_margin="10px" android:singleLine="true" android:layout_width="match_parent" android:id="@+id/show_textView1" android:textSize="30sp"></TextView>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_weight="1">
+        <LinearLayout android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/food_show_img" android:id="@+id/show_imageView1"></ImageView>
+            <TextView android:layout_height="wrap_content" android:text="동아리 이름 불러오는 중..." android:layout_margin="5px" android:id="@+id/show_textView2" android:textSize="20sp" android:layout_width="match_parent"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="공연 소개내용 불러오는 중..." android:layout_margin="5px" android:id="@+id/show_textView3" android:textSize="20sp" android:layout_width="match_parent"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="공연일시 불러오는 중..." android:layout_margin="5px" android:id="@+id/show_textView4" android:textSize="20sp" android:layout_width="match_parent"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

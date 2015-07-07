@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="ajou.amicom.ajouInfo" android:installLocation="internalOnly"
+	android:versionName="2.1.0Beta" android:versionCode="15">
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:allowTaskReparenting="false">
+		<activity android:name=".intro" android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:scheme="wefu" android:host="twitter" />
+			</intent-filter>
+
+		</activity>
+
+		<activity android:name=".main.mainMenu"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".main.ajou_login"
+			android:windowSoftInputMode="stateHidden" android:screenOrientation="portrait"></activity>
+		<activity android:name=".bus.bus" android:screenOrientation="portrait"></activity>
+		<activity android:name=".food.food"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".library.library"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name="map.map" android:screenOrientation="portrait"></activity>
+		<activity android:name=".phone.phone"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.portal"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".setting.setting"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".twitter.twitter"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".main.twitter_login"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".amicom.amicom"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".creator.creator"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".bus.busView"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.ClassAttendance"
+			android:screenOrientation="portrait"></activity>
+
+		<activity android:name=".portal.ElectronicAttendance"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.notice"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.SchoolSchedule"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".library.BorrowBook"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".library.ReadingRoomCondition"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".library.ReadingRoomExtend"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".show.show"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".twitter.twitterWebView"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".show.showView"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".food.foodView"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".food.foodCategory"
+			android:screenOrientation="portrait"></activity>
+
+
+		<activity android:name=".amicom.amicom2"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".amicom.amicom_event"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".creator.creatorBugReport"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".phone.phone_tab1"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".phone.phone_tab2"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".phone.phone_tab3"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.cafeteria"
+			android:screenOrientation="portrait"></activity>
+
+		<activity android:name=".portal.cafetab"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.cafe1"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.cafe2"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.cafe3"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".portal.cafe4"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".amicom.amicom_notice"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".amicom.amicom_notice_view"
+			android:screenOrientation="portrait"></activity>
+		<activity android:name=".map.NMapViewer"></activity>
+		<activity android:name=".bus.NMapViewer_bus"></activity>
+		<activity android:name=".main.mainmenu_btn"></activity>
+		<activity android:name=".portal.timetable"></activity>
+		<activity android:name=".portal.breakfast"></activity>
+		<activity android:name=".portal.lunch"></activity>
+		<activity android:name=".portal.dinner"></activity>
+		<activity android:name=".portal.menuonly"></activity>
+		<activity android:name=".portal.snack"></activity>
+		<activity android:name=".food.food_search"></activity>
+		<activity android:name=".phone.phone_main"></activity>
+		<activity android:name=".phone.phone_search"></activity>
+		<activity android:name=".phone.phone_View"></activity>
+		<activity android:name=".library.ReadingRoomCondition_view"></activity>
+		<activity android:name=".portal.haksaplan"></activity>
+		<activity android:name=".portal.score"></activity>
+		<activity android:name="portal.eclass_homework_old"></activity>
+		<activity android:name=".portal.eclass_note"></activity>
+		<activity android:name=".portal.eclass_notice"></activity>
+		<activity android:name=".portal.eclass_note_view"></activity>
+		<activity android:name=".portal.eclass_note_view_open"></activity>
+		<activity android:name=".portal.eclass_homework"></activity>
+		<activity android:name=".portal.eclass_homework_view"></activity>
+	</application>
+
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="8"></uses-sdk>
+
+
+</manifest>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+<TextView android:layout_height="wrap_content" android:id="@+id/regiFileNm" android:text="파일명" android:textColor="#333" android:layout_width="fill_parent" android:textSize="17sp"></TextView>
+<TextView android:layout_height="wrap_content" android:id="@+id/downCnt" android:text="다운로드수" android:textColor="#666" android:layout_gravity="right" android:textSize="17sp" android:layout_width="100sp" android:gravity="right"></TextView>
+</LinearLayout>

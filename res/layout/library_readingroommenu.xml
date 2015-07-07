@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<Button android:id="@+id/readingroommenu_btn1" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="현황" />
+	<Button android:id="@+id/readingroommenu_btn2" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/readingroommenu_btn1"
+		android:text="연장" />
+</RelativeLayout>

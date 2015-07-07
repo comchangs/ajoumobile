@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background">
+    <ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <TextView android:id="@+id/textView1" android:text="시간표조회" android:padding="10sp" android:textSize="20sp" android:textColor="#333333" android:layout_width="fill_parent" android:textStyle="bold|italic" android:background="#661358be" android:layout_height="50sp"></TextView>
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <TextView android:textColor="#333" android:layout_marginBottom="10sp" android:layout_height="wrap_content" android:layout_marginTop="30sp" android:layout_gravity="center" android:textSize="20sp" android:text="TextView" android:id="@+id/hakgi" android:layout_width="wrap_content"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333333" android:layout_height="wrap_content" android:textSize="17sp" android:text="시간표 정보를 받아오지 못하였습니다." android:id="@+id/sub1" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView02" android:id="@+id/sub2" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView03" android:id="@+id/sub3" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView04" android:id="@+id/sub4" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView05" android:id="@+id/sub5" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView06" android:id="@+id/sub6" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView07" android:id="@+id/sub7" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView08" android:id="@+id/sub8" android:layout_width="fill_parent"></TextView>
+            <TextView android:padding="5sp" android:textColor="#333" android:layout_height="wrap_content" android:textSize="17sp" android:text="@+id/TextView09" android:id="@+id/sub9" android:layout_width="fill_parent"></TextView>
+        </LinearLayout>
+    </ScrollView>
+<LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_weight="1" android:text="1학기" android:layout_width="match_parent"></Button>
+    <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_weight="1" android:text="하계학기" android:layout_width="match_parent"></Button>
+    <Button android:id="@+id/button3" android:layout_height="wrap_content" android:layout_weight="1" android:text="2학기" android:layout_width="match_parent"></Button>
+    <Button android:id="@+id/button4" android:layout_height="wrap_content" android:layout_weight="1" android:text="동계학기" android:layout_width="match_parent"></Button>
+</LinearLayout>
+
+
+</LinearLayout>

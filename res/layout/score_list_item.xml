@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:textColor="#333" android:text="2000년" android:layout_marginTop="10px" android:layout_width="70sp" android:id="@+id/year" android:textSize="16sp" android:layout_height="wrap_content"></TextView>
+        <TextView android:textColor="#333" android:text="1학기" android:layout_marginTop="10px" android:layout_width="70sp" android:textSize="16sp" android:layout_height="wrap_content" android:id="@+id/hakgi"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <TextView android:text="과목명" android:textSize="20sp" android:layout_height="wrap_content" android:id="@+id/subject" android:layout_width="250sp" android:textColor="#666"></TextView>
+        <TextView android:textColor="#666" android:layout_marginBottom="10px" android:text="성적" android:id="@+id/grade" android:textSize="20sp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_width="40sp"></TextView>
+    </LinearLayout>
+</LinearLayout>

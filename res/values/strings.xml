@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ajou Mobile</string>
+    <string name="mainMenu">Main Menu</string>
+    
+    <!-- MeinMenu String -->
+    <string name="mainmenu_string01">아주모바일 공지사항</string>
+    <string name="mainmenu_string02">아주포털</string>
+	<string name="mainmenu_string03">학교식당 메뉴</string>
+	<string name="mainmenu_string04">주변 음식점 정보</string>
+	<string name="mainmenu_string05">버스정류장 도착정보</string>
+	<string name="mainmenu_string06">아주대동아리 공연/전시 정보</string>
+	<string name="mainmenu_string07">트위터 아주대 커뮤니티</string>
+	<string name="mainmenu_string08">교내 전화번호 안내</string>
+	<string name="mainmenu_string09">학교 안내도</string>
+	<string name="mainmenu_string10">환경설정</string>
+	<string name="mainmenu_string11">제작자 정보 및 버그 신고</string>
+	<!-- MeinMenu String -->
+	
+	<!-- Portal String -->
+	<string name="portal_string01">포털공지사항</string>
+	<string name="portal_string02">학사일정</string>
+	<string name="portal_string03">전자출석부</string>
+	<string name="portal_string04">시간표조회</string>
+	<string name="portal_string05">성적조회</string>
+	<string name="portal_string06">이클래스 공지사항</string>
+	<string name="portal_string07">이클래스 강의노트</string>
+	<string name="portal_string08">이클래스 과제</string>
+	<!-- Portal String -->
+	
+	<!-- library String -->
+	<string name="library_string01">도서검색</string>
+	<string name="library_string02">대출 정보 및 연기</string>
+	<string name="library_string03">열람실 잔여 좌석 조회</string>
+	<string name="library_string04">열람실 좌석 조회 및 연장</string>
+	<!-- library String -->
+	
+	<!-- Food String -->
+    <string name="food_string01">한식</string>
+	<string name="food_string02">고기류</string>
+	<string name="food_string03">분식</string>
+	<string name="food_string04">일식</string>
+    <string name="food_string05">중식</string>
+	<string name="food_string06">커피/음료</string>
+	<string name="food_string07">술집</string>
+	<string name="food_string08">기타</string>
+    <string name="food_string09">배달전문</string>
+	<!-- Food String -->
+	
+	<string name="str_done">완료</string>
+	<string name="str_more">정보</string>
+</resources>

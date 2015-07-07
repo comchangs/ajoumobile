@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical" android:background="@drawable/background">
+	<ImageView android:src="@drawable/titlebar" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+    <TextView android:background="#661358be" android:textSize="20sp" android:textStyle="bold|italic" android:textColor="#333333" android:id="@+id/TextView01" android:layout_height="50sp" android:layout_width="fill_parent" android:padding="10sp" android:text="이클래스 과제"></TextView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:orientation="vertical">
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="과목명" android:textColor="#333" android:textSize="20sp" android:layout_marginLeft="10sp" android:layout_marginTop="10sp"></TextView>
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="제목" android:textColor="#333" android:textSize="20sp" android:layout_marginLeft="10sp" android:layout_marginTop="10sp"></TextView>
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginLeft="10sp" android:layout_marginTop="10sp">
+            <TextView android:textSize="20sp" android:textColor="#333" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="시작일"></TextView>
+            <TextView android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="~" android:layout_marginLeft="10sp" android:layout_marginRight="10sp" android:textColor="#333"></TextView>
+            <TextView android:textSize="20sp" android:textColor="#333" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:text="종료일"></TextView>
+        </LinearLayout>
+        <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="내용" android:textColor="#333" android:textSize="20sp" android:layout_marginLeft="10sp" android:layout_marginTop="10sp"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:layout_gravity="center_vertical|center_horizontal|center" android:background="#20ff99ff" android:padding="5sp" android:layout_margin="30sp" android:orientation="vertical">
+        <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="첨부파일 목록" android:textColor="#999"></TextView>
+        <ListView android:cacheColorHint="#00000000" android:layout_height="fill_parent" android:id="@+id/eclass_notice_listview" android:background="#00000000" android:layout_width="fill_parent"></ListView>
+    </LinearLayout>
+
+</LinearLayout>
